@@ -16,7 +16,7 @@ elo_ratings = {}
 matches = []
 
 try:
-    with open('results.csv', 'r', encoding='utf-8') as file:
+    with open('results.csv', 'r', encoding='utf-8') as file: # enter path to .csv file
         reader = csv.DictReader(file)
         for row in reader:
             matches.append(row)
@@ -80,4 +80,5 @@ else:
     
     print(f"\nTrue Odds:")
     print(f"{home_team}: {home_odds}")
+
     print(f"{away_team}: {away_odds}")
