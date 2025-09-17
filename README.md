@@ -1,5 +1,6 @@
 # Football-game-prediciton
 Uses an elo system similar to chess to predict the W/L of a football national team game.
+Used for finding arbiterage in bets (untested NFA)
 
 
 
